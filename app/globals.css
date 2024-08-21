@@ -66,4 +66,9 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .disabled-footer {
+    background-color: gray;
+    cursor: not-allowed;
+  }
 }
